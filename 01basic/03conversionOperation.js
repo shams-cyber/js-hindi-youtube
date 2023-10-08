@@ -23,4 +23,27 @@ let booleanIsLog = Boolean(isLog);
 
 let someNo = 33;
 let stringNumber = String(someNo);
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
+
+
+// ************************************ Operation *******************************
+
+// let concate two string using "+"
+
+let str1 = "sham"
+let str2 = " alam"
+
+let str3 = str1 + str2;
+
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + "2");
+// console.log("1" + 1 + 2);
+// console.log(1+2+"2");
+
+// let n = 1+1+"2"
+// console.log(typeof n); // string
+
+
