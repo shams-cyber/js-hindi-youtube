@@ -48,3 +48,5 @@ const obj5 = {...obj1,...obj2,...obj3}
 // console.log(obj5.hasOwnProperty(1));
 
 
+
+
