@@ -49,4 +49,21 @@ const obj5 = {...obj1,...obj2,...obj3}
 
 
 
+//  <<<<<<<<<<<<<<<<<<<<<< OBJECT DESTUCTURING IN JS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+const api = {
+    course : "javascript",
+    price : 999,
+    courseInstructor : "Shamser"
+}
+
+// Destructuring
+
+const {courseInstructor} = api;
+console.log(courseInstructor);
+
+// if i don't want to use the key of object instead of that i want to define my own variable so we can do that
+
+const {courseInstructor:instructor} = api;
+console.log(instructor);
 
