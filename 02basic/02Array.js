@@ -1,5 +1,7 @@
  marvel = ["thor","iron","spider"]
 
+ const hero = marvel.slice(0);
+ console.log(hero);
 const dc = ["batman","flash"]
 
 // now we want the both array element in single array
@@ -21,18 +23,18 @@ const realAnotherArray = anotherArray.flat(Infinity);
 // for checking given variable is array or not method is isArray() this is provide by array global variable
 // it return in true or false
 
-console.log(Array.isArray("hitesh"));
+// console.log(Array.isArray("hitesh"));
 
 // to convert any iterable object into array suppose string to array , nodelist to array  we have from() method
 
-console.log(Array.from("hitesh"));
+// console.log(Array.from("hitesh"));
 
-console.log(Array.from({name : "hitesh"})); // always give empty object as we didn't specified that
+// console.log(Array.from({name : "hitesh"})); // always give empty object as we didn't specified that
 //using which one we have to make array wether using key or value.
 
 // of() => return new array by taking set of element
 const score1 = 100;
 const score2 = 200;
 
-console.log(Array.of(score1,score2));
+// console.log(Array.of(score1,score2));
 
